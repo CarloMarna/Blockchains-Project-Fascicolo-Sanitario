@@ -1,4 +1,4 @@
-# Blockchains-Project-Fascicolo-Sanitario Decentralized Document Lifecycle & Access Control
+# Blockchains-Project-Fascicolo-Sanitario -- Decentralized Document Lifecycle & Access Control
 
 Progetto basato su **Solidity**, **Hardhat** e **TypeScript** per la gestione decentralizzata del ciclo di vita di documenti sensibili e del controllo degli accessi.
 
