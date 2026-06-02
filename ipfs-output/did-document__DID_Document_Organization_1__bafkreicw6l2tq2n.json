@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:health:org:1",
+  "controller": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+  "verificationMethod": [
+    {
+      "id": "did:health:org:1#keys-1",
+      "type": "EcdsaSecp256k1RecoveryMethod2020",
+      "controller": "did:health:org:1",
+      "blockchainAccountId": "eip155:31337:0x70997970C51812dc3A010C7d01b50e0d17dc79C8"
+    }
+  ],
+  "authentication": [
+    "did:health:org:1#keys-1"
+  ],
+  "assertionMethod": [
+    "did:health:org:1#keys-1"
+  ],
+  "service": [
+    {
+      "id": "did:health:org:1#health-service",
+      "type": "HealthDocumentService",
+      "serviceEndpoint": "ipfs://metadata/did:health:org:1"
+    }
+  ]
+}

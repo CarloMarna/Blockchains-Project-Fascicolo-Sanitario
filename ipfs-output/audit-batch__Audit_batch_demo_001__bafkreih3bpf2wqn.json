@@ -1,0 +1,217 @@
+{
+  "type": "AuditBatch",
+  "batchId": "audit-batch-demo-001",
+  "createdAt": "2026-05-31T23:39:17.411Z",
+  "blockNumber": 86,
+  "blockTimestamp": "1780270590",
+  "note": "Demo batch off-chain. Gli eventi ufficiali sono comunque emessi anche da AuditRegistry come Solidity events.",
+  "actors": {
+    "organization1": {
+      "did": "did:health:org:1",
+      "controller": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8"
+    },
+    "doctorA": {
+      "did": "did:health:doctor:alice",
+      "controller": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65"
+    },
+    "patient": {
+      "did": "did:health:patient:bob",
+      "controller": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc"
+    },
+    "auditor": {
+      "did": "did:health:auditor:ana",
+      "controller": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f"
+    }
+  },
+  "targets": {
+    "documentId": "0xe36a352e80a724fab7524151faf8c2615eee86aa0eb5769ef389a89c621d6367",
+    "documentType": "REFERTO",
+    "documentV1CID": "bafkreieriannyd2cpnm56bqh57wobe6qt25s6vyamaghdabpiwbppcweca",
+    "documentV2CID": "bafkreiahoc2i4j6wro7im24f3xbjdkc2wv4xbwfzi6vab6bbazdtq77m6u"
+  },
+  "operations": [
+    "DID registration",
+    "VC issuance",
+    "global policy approval",
+    "max delegation depth approval",
+    "document creation",
+    "document versioning",
+    "access request",
+    "patient-driven restriction",
+    "delegation creation",
+    "derived delegation creation",
+    "delegation revocation",
+    "patient-driven access revocation",
+    "VC revocation"
+  ],
+  "offchainReferences": [
+    {
+      "category": "did-document",
+      "label": "DID Document Organization 1",
+      "cid": "bafkreicw6l2tq2nv4aughqkamavvymekcnqldw5akxbrksyqi6ilg3p564",
+      "cidHash": "0xc04fe8b9a40c867916490019321afc6d5043e931b3f895b49bc978456a28fd41",
+      "contentHash": "0x38d5e56a65ff89c46ee5f6e7f68c3315048afd766c1336ef412cbf933af2cf4c"
+    },
+    {
+      "category": "did-document",
+      "label": "DID Document Organization 2",
+      "cid": "bafkreidmj3szcncv45mmoi7zoilbbk4xkooqvhdbh655v57zkbshd7pkum",
+      "cidHash": "0x2373b498e2255d13c2348975565f7f616f88845d421fa72dbc1c81b14a5e8b14",
+      "contentHash": "0x24f43a30f16dcd69018b53d1f733c3aac98ece4e65dfd1dfe2316b626fb37d2e"
+    },
+    {
+      "category": "did-document",
+      "label": "DID Document Organization 3",
+      "cid": "bafkreig5kfaejbppir55gqbtvlmrww42mxhjb7wllkqetd7pkzce3g6pjy",
+      "cidHash": "0x46aca3f37cb4b186503cf7f8f602cf21b06d0f614c74f190f868e4276124e958",
+      "contentHash": "0xca94dd5a15fa7f3de740feeca45c43f7bcc1b05c0de1ae4721e2d9dd533e32b9"
+    },
+    {
+      "category": "did-document",
+      "label": "DID Document Doctor A",
+      "cid": "bafkreidklflh6kk2hzigcenjxg7dgicuyqzzzjbqzyw3mor37quh3jicnu",
+      "cidHash": "0xb500acae2c1e3f1e1046ac734b1a5bb80ba9abe6f71ffc55f87bf9074106c724",
+      "contentHash": "0x34149cb4c558589a494cdaa1f071a3c7786fc94cc83daf8a108cbb8fff236009"
+    },
+    {
+      "category": "did-document",
+      "label": "DID Document Patient",
+      "cid": "bafkreihammogyupoyo5ytpcox2pqy7lwntrcfnp4vvixvgnspcinknnwfi",
+      "cidHash": "0xb835d842efdeed63345f4eab0098925e372c34e2cfa37db519817bb3ce928776",
+      "contentHash": "0xfb38f5c17a008b12956846808d33e8de21a8f3c5226f1ae3072ea4b61f36f73b"
+    },
+    {
+      "category": "did-document",
+      "label": "DID Document Doctor B",
+      "cid": "bafkreiatmrxt35szcwey2d2y4xmsxyg3rry6k2gofwwwdbqpqhyd3lfcdy",
+      "cidHash": "0xe14b55e8d67a770517ca9f766fc33e8b9591b30e7a1a92e0dd930f04b7778eda",
+      "contentHash": "0x38c11a4d0cb66f621e7cc446ad31ec3c4ad00e5a7158eb92a9d56656613ba5e5"
+    },
+    {
+      "category": "did-document",
+      "label": "DID Document Doctor C",
+      "cid": "bafkreigawoexmn4borajy4necbkmfhrsevsotlk7jzsh7tc6457d3xasle",
+      "cidHash": "0x94d25310eaffb2fdbf7e0ed849cd0bb640429f666072d518c921f7c92c45094f",
+      "contentHash": "0x4aef2ced87b6fc0d5c016bd28af72a65b5204935b9400c9e544108ad845c6ba6"
+    },
+    {
+      "category": "did-document",
+      "label": "DID Document Auditor",
+      "cid": "bafkreibwrrboui72t3te24vmucnepvm4hstp3cdwph4am7bcmhapjehwbm",
+      "cidHash": "0xf64e69976568d7781cd8b37e5339db9eb797c8e68b03840444de88328a547a82",
+      "contentHash": "0x6f05c55ae9b90eb88b62e8b08a292436bf36921649d047de467e1fe737256619"
+    },
+    {
+      "category": "did-document",
+      "label": "DID Document Unauthorized user / Doctor D",
+      "cid": "bafkreiblplugp43vzet23h6fydccjigh5o7pr73g6r4542547mz733tnt4",
+      "cidHash": "0xd82e7673ab338746e8d0cab8d7a435db828b566680cc8227cea9d4b1bd71b75e",
+      "contentHash": "0x6f8632248bcdf1ba315108fb401a2cfd9bf682712b33f675849d8b9e4a485509"
+    },
+    {
+      "category": "did-document",
+      "label": "DID Document Doctor D",
+      "cid": "bafkreicyswtksxhp7aaaomhrtad66d7xozasox33yldebxv5u6syyc7umy",
+      "cidHash": "0xdafddcfaca6423d17b100a6e12b49d649adab78a45532912fa23ded6684005fc",
+      "contentHash": "0x2b5ed51d063a12300fcf775dc2d7979896e38e5d6fa3419e9e4df8aa1bd797a1"
+    },
+    {
+      "category": "verifiable-credential",
+      "label": "VC vc:doctor:alice:medical-professional:v1",
+      "cid": "bafkreiff4yh6vh5wcv7mltdft2vdohtu5vjquwzbainuubfz6skurrewky",
+      "cidHash": "0xd0c920090ae7b80b871aa0a6df81f5e937bd5d97aab3f35027766e854beab3a5",
+      "contentHash": "0x83c41e50ae944675ce46f46ceaa293c434981ab832b508d598f847976870956a"
+    },
+    {
+      "category": "verifiable-credential",
+      "label": "VC vc:auditor:ana:auditor-professional:v1",
+      "cid": "bafkreia6wkw6t2h7cyctiot2dywc6suogt5m5nswcysbkcuork5n3zuix4",
+      "cidHash": "0x09dec14608aa1629dda07220702a2c120d4b9c2efd9fffbdd55a72fd45f5df9b",
+      "contentHash": "0x2068e6e659c7837ed4d87fba857db566d1da8fd47ff2e6fb76c521f645c235c4"
+    },
+    {
+      "category": "verifiable-credential",
+      "label": "VC vc:doctor:daniel:medical-professional:v1",
+      "cid": "bafkreicxo6jp2nl5ophj2a4kbyo4cnzsdxltircsqxdfvvrrqhugvmtosu",
+      "cidHash": "0x0956da33581d8242c1d2e2824e97b26bb25da5dcf48d77f0e6f4fb709268d5e6",
+      "contentHash": "0x26df407350d6e8b0eb805c2bec2ba871cadf043e18084961a53677287f766d0e"
+    },
+    {
+      "category": "global-policy",
+      "label": "Global Policy Doctor can CREATE REFERTO",
+      "cid": "bafkreihdw2tmlgrvuang6jpzicszhslb3yirzquz4dg4a2ftsxussox6ey",
+      "cidHash": "0xdb0d5aebddd4e5ac3c658fa406e6f533ee3e9a49dc0b7089cec8fb5441ea24dc",
+      "contentHash": "0xff21e5b21a4c936a8f04cd95c0adebfe3468231b786aaf4aff8a434879ce980c"
+    },
+    {
+      "category": "global-policy",
+      "label": "Global Policy Doctor can READ REFERTO",
+      "cid": "bafkreihwytbz4ufbvodwdawwsagsjup2xgwuutgn6u6euzooaz4heasqay",
+      "cidHash": "0x4cdf76eb4502a277da0975c0e6e37453d89cee6e1f63c2677b9ea1bb73df9c63",
+      "contentHash": "0x489cc26c3f9b2ad2e8dd36cbe5e0be20bfccec075736c958cf156b26e55197a4"
+    },
+    {
+      "category": "global-policy",
+      "label": "Global Policy Doctor can UPDATE REFERTO",
+      "cid": "bafkreia2golsj56qt4xlyeoxbcw3zkysprfkemr7gql5ki4itqkg26gtrm",
+      "cidHash": "0x58536d10a47fed5b91b49c4f9f9d218def7c1b9d26b670cb980213fb1e23fd98",
+      "contentHash": "0x510868556c723bd29ec41c4572a585abcab3ab2d65720442ca478db648cc64c8"
+    },
+    {
+      "category": "global-policy",
+      "label": "Global Policy Doctor can REVOKE REFERTO",
+      "cid": "bafkreifod25wd6i4vzq424mzks7dl3u36f6v544irdlnww4whcfjbyjrpi",
+      "cidHash": "0x87ec63b3c9440943aac7e363eb33ea7574329a120fb8cfcc99a81b3f3bc16e2c",
+      "contentHash": "0xd158c8ae2631c6eee108499580a902f477bb1200715146a63e852250171a5e3c"
+    },
+    {
+      "category": "global-policy",
+      "label": "Global Policy Doctor can DELEGATE REFERTO",
+      "cid": "bafkreicrf42tr3kico4mjh5wxepqsxpmbtfehsvodaiifzffpu5wzq52h4",
+      "cidHash": "0x7a719f756881e042911741dea048f1b931d8706312363d01016237cffde60d50",
+      "contentHash": "0x21249c231babf7eee72ad8f096103042f54b7851bae98489e6798e89cb0ab34c"
+    },
+    {
+      "category": "governance-policy",
+      "label": "Governance Policy MaxDelegationDepth is 2",
+      "cid": "bafkreihzt44sabmtltpv2blcbvvb635idofkdnle2ob7jwswdxv3msg2yq",
+      "cidHash": "0x348f4ef6085be395faceef2d980c58733f97b02815e26ab8d1127195e175ae67",
+      "contentHash": "0x49dc6dffc681e2fde8816715add52f885027c19a177ddcb37510d02ecf7b4db9"
+    },
+    {
+      "category": "health-document",
+      "label": "Documento sanitario DOCUMENT-001 versione 1",
+      "cid": "bafkreieriannyd2cpnm56bqh57wobe6qt25s6vyamaghdabpiwbppcweca",
+      "cidHash": "0xb4d71cbb0e97a2fc7da0191bad1fcfebbc359715d8a67fb303b8fd14202ab5b8",
+      "contentHash": "0x740d20fe0ea1b4d2211e76280253377a7b4e20fded503247147a600f1067b249"
+    },
+    {
+      "category": "health-document",
+      "label": "Documento sanitario DOCUMENT-001 versione 2",
+      "cid": "bafkreiahoc2i4j6wro7im24f3xbjdkc2wv4xbwfzi6vab6bbazdtq77m6u",
+      "cidHash": "0x1c802fa533f43f9f5ab5f5b139d20c7cee1eb466d7b4ccd010168935a9d7adb6",
+      "contentHash": "0x332dae9c066513f27b56e51e7a1a9533cb2e1baf4e0929419b7a131935c19e1c"
+    },
+    {
+      "category": "selective-disclosure-presentation",
+      "label": "Selective disclosure presentation Doctor A READ DOCUMENT-001",
+      "cid": "bafkreif5okmp3uyprcxxvhvozelqvkaeebr6m7ka33xn6nn2i3jaccxu6a",
+      "cidHash": "0xb678ae9f098107fcea646841a599a351c4956d559d368366582c6832a2c43cb1",
+      "contentHash": "0x8fae875cf971f14614d9663ad00e50fd1fab23df39a4b250a288c9d73a6ef381"
+    },
+    {
+      "category": "patient-driven-policy",
+      "label": "Patient-driven allowance Doctor D READ DOCUMENT-001",
+      "cid": "bafkreia2dxllb4qzeq6sfgownpcyvuf7mu2r5bvl6umuhdhvlpx45b35bm",
+      "cidHash": "0x18a83e9d0b93f3af98c1010da324929b92c8137ffd5001438911d26fe1e4d0f0",
+      "contentHash": "0xbf37421cf1b39d407497256752403d4a36cd1230fb02d0e1f2c44ccd61d921cb"
+    },
+    {
+      "category": "patient-driven-policy",
+      "label": "Patient-driven Policy restriction Doctor A READ DOCUMENT-001",
+      "cid": "bafkreiapresrxbza5xqghrdjafzlm4rr4qgg6kc64embd6awx3nityqsja",
+      "cidHash": "0x920c0afdef37f9ba1ede1c6d88eb70dfe64349bd1ba3bebf90f424e46f5c7ec4",
+      "contentHash": "0xfcf6392a0abaeb2d821fd7e7c3e32657c7bea9c122b43342cb25d4dc0778f1ba"
+    }
+  ]
+}

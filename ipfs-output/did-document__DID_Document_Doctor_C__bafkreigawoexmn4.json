@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:health:doctor:diana",
+  "controller": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
+  "verificationMethod": [
+    {
+      "id": "did:health:doctor:diana#keys-1",
+      "type": "EcdsaSecp256k1RecoveryMethod2020",
+      "controller": "did:health:doctor:diana",
+      "blockchainAccountId": "eip155:31337:0x14dC79964da2C08b23698B3D3cc7Ca32193d9955"
+    }
+  ],
+  "authentication": [
+    "did:health:doctor:diana#keys-1"
+  ],
+  "assertionMethod": [
+    "did:health:doctor:diana#keys-1"
+  ],
+  "service": [
+    {
+      "id": "did:health:doctor:diana#health-service",
+      "type": "HealthDocumentService",
+      "serviceEndpoint": "ipfs://metadata/did:health:doctor:diana"
+    }
+  ]
+}

@@ -1,0 +1,1044 @@
+{
+  "generatedAt": "2026-06-01T00:01:24.013Z",
+  "environment": {
+    "network": "hardhat local node/test network",
+    "note": "I tempi sono wall-clock locali misurati con performance.now(): includono esecuzione Hardhat/EVM locale e attesa receipt. Non rappresentano latenze di una rete permissioned reale."
+  },
+  "totals": {
+    "operationsMeasured": 118,
+    "totalMeasuredMs": 267.648,
+    "txOrDeployOperations": 85,
+    "totalGasUsed": "26377779"
+  },
+  "records": [
+    {
+      "group": "deploy",
+      "operation": "deploy AuditRegistry",
+      "kind": "deploy",
+      "ms": 6.788,
+      "gasUsed": "299322",
+      "success": true,
+      "notes": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+    },
+    {
+      "group": "deploy",
+      "operation": "deploy OrganizationRegistry",
+      "kind": "deploy",
+      "ms": 9.233,
+      "gasUsed": "1036377",
+      "success": true,
+      "notes": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
+    },
+    {
+      "group": "deploy",
+      "operation": "deploy IdentityRegistry",
+      "kind": "deploy",
+      "ms": 2.517,
+      "gasUsed": "779087",
+      "success": true,
+      "notes": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
+    },
+    {
+      "group": "setup",
+      "operation": "authorize OrganizationRegistry as audit emitter",
+      "kind": "tx",
+      "ms": 2.745,
+      "gasUsed": "47718",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "setup",
+      "operation": "authorize IdentityRegistry as audit emitter",
+      "kind": "tx",
+      "ms": 1.901,
+      "gasUsed": "47718",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "setup",
+      "operation": "add Organization 1",
+      "kind": "tx",
+      "ms": 2.204,
+      "gasUsed": "214649",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "setup",
+      "operation": "add Organization 2",
+      "kind": "tx",
+      "ms": 2.046,
+      "gasUsed": "180437",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "setup",
+      "operation": "add Organization 3",
+      "kind": "tx",
+      "ms": 2.013,
+      "gasUsed": "180449",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "identity",
+      "operation": "register DID org1",
+      "kind": "tx",
+      "ms": 2.212,
+      "gasUsed": "260175",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "identity",
+      "operation": "register DID org2",
+      "kind": "tx",
+      "ms": 1.906,
+      "gasUsed": "260151",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "identity",
+      "operation": "register DID org3",
+      "kind": "tx",
+      "ms": 1.923,
+      "gasUsed": "260175",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "identity",
+      "operation": "register DID doctorA",
+      "kind": "tx",
+      "ms": 1.871,
+      "gasUsed": "260175",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "identity",
+      "operation": "register DID patient",
+      "kind": "tx",
+      "ms": 1.876,
+      "gasUsed": "260175",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "identity",
+      "operation": "register DID doctorB",
+      "kind": "tx",
+      "ms": 2.186,
+      "gasUsed": "260175",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "identity",
+      "operation": "register DID doctorC",
+      "kind": "tx",
+      "ms": 1.821,
+      "gasUsed": "260175",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "identity",
+      "operation": "register DID auditor",
+      "kind": "tx",
+      "ms": 1.974,
+      "gasUsed": "260163",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "identity",
+      "operation": "register DID attacker",
+      "kind": "tx",
+      "ms": 2.18,
+      "gasUsed": "260175",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "identity",
+      "operation": "register DID doctorD",
+      "kind": "tx",
+      "ms": 1.662,
+      "gasUsed": "260175",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "deploy",
+      "operation": "deploy TrustRegistry",
+      "kind": "deploy",
+      "ms": 2.758,
+      "gasUsed": "751158",
+      "success": true,
+      "notes": "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6"
+    },
+    {
+      "group": "setup",
+      "operation": "authorize TrustRegistry as audit emitter",
+      "kind": "tx",
+      "ms": 1.434,
+      "gasUsed": "47718",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "trust",
+      "operation": "authorize issuer Org1 for MedicalProfessionalVC",
+      "kind": "tx",
+      "ms": 1.968,
+      "gasUsed": "80356",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "trust",
+      "operation": "authorize issuer Org1 for AuditorProfessionalVC",
+      "kind": "tx",
+      "ms": 1.768,
+      "gasUsed": "80356",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "deploy",
+      "operation": "deploy CredentialStatusRegistry",
+      "kind": "deploy",
+      "ms": 3.486,
+      "gasUsed": "1581605",
+      "success": true,
+      "notes": "0xA51c1fc2f0D1a1b8494Ed1FE312d7C3a78Ed91C0"
+    },
+    {
+      "group": "setup",
+      "operation": "authorize CredentialStatusRegistry as audit emitter",
+      "kind": "tx",
+      "ms": 1.477,
+      "gasUsed": "47718",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "credential",
+      "operation": "issue credential doctorA-medical-v1",
+      "kind": "tx",
+      "ms": 2.509,
+      "gasUsed": "303424",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "credential-offchain",
+      "operation": "build SD-JWT PresentedCredential doctorA-medical-v1",
+      "kind": "view",
+      "ms": 0.18,
+      "success": true,
+      "notes": "operazione off-chain simulata: costruzione pacchetto vc+sd-jwt compatibile con la struct Solidity"
+    },
+    {
+      "group": "credential",
+      "operation": "issue credential auditor-ana-v1",
+      "kind": "tx",
+      "ms": 2.237,
+      "gasUsed": "286324",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "credential-offchain",
+      "operation": "build SD-JWT PresentedCredential auditor-ana-v1",
+      "kind": "view",
+      "ms": 0.056,
+      "success": true,
+      "notes": "operazione off-chain simulata: costruzione pacchetto vc+sd-jwt compatibile con la struct Solidity"
+    },
+    {
+      "group": "credential",
+      "operation": "issue credential doctorD-medical-v1",
+      "kind": "tx",
+      "ms": 2.114,
+      "gasUsed": "286324",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "credential-offchain",
+      "operation": "build SD-JWT PresentedCredential doctorD-medical-v1",
+      "kind": "view",
+      "ms": 0.06,
+      "success": true,
+      "notes": "operazione off-chain simulata: costruzione pacchetto vc+sd-jwt compatibile con la struct Solidity"
+    },
+    {
+      "group": "deploy",
+      "operation": "deploy PolicyRegistry",
+      "kind": "deploy",
+      "ms": 2.642,
+      "gasUsed": "1013317",
+      "success": true,
+      "notes": "0x9A676e781A523b5d0C0e43731313A708CB607508"
+    },
+    {
+      "group": "setup",
+      "operation": "authorize PolicyRegistry as audit emitter",
+      "kind": "tx",
+      "ms": 1.559,
+      "gasUsed": "47718",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "policy",
+      "operation": "map MedicalProfessionalVC to Doctor role",
+      "kind": "tx",
+      "ms": 1.691,
+      "gasUsed": "58976",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "policy",
+      "operation": "map AuditorProfessionalVC to Auditor role",
+      "kind": "tx",
+      "ms": 1.62,
+      "gasUsed": "58976",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "deploy",
+      "operation": "deploy PolicyGovernance",
+      "kind": "deploy",
+      "ms": 3.539,
+      "gasUsed": "2025803",
+      "success": true,
+      "notes": "0x68B1D87F95878fE05B998F19b66F4baba5De1aed"
+    },
+    {
+      "group": "setup",
+      "operation": "authorize PolicyGovernance as audit emitter",
+      "kind": "tx",
+      "ms": 1.687,
+      "gasUsed": "47718",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance-setup",
+      "operation": "set OrganizationRegistry governance contract",
+      "kind": "tx",
+      "ms": 1.339,
+      "gasUsed": "45070",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance-setup",
+      "operation": "set PolicyRegistry governance contract",
+      "kind": "tx",
+      "ms": 1.372,
+      "gasUsed": "45055",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance-setup",
+      "operation": "set TrustRegistry governance contract",
+      "kind": "tx",
+      "ms": 1.497,
+      "gasUsed": "45025",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "deploy",
+      "operation": "deploy DocumentLifecycleRegistry",
+      "kind": "deploy",
+      "ms": 3.276,
+      "gasUsed": "1960763",
+      "success": true,
+      "notes": "0x322813Fd9A801c5507c9de605d63CEA4f2CE6c44"
+    },
+    {
+      "group": "deploy",
+      "operation": "deploy PatientDrivenPolicyRegistry",
+      "kind": "deploy",
+      "ms": 2.6,
+      "gasUsed": "1263264",
+      "success": true,
+      "notes": "0xa85233C63b9Ee964Add6F2cffe00Fd84eb32338f"
+    },
+    {
+      "group": "deploy",
+      "operation": "deploy DelegationRegistry",
+      "kind": "deploy",
+      "ms": 3.978,
+      "gasUsed": "2478056",
+      "success": true,
+      "notes": "0x4A679253410272dd5232B3Ff7cF5dbB88f295319"
+    },
+    {
+      "group": "deploy",
+      "operation": "deploy AccessController",
+      "kind": "deploy",
+      "ms": 2.924,
+      "gasUsed": "853433",
+      "success": true,
+      "notes": "0x7a2088a1bFc9d81c55368AE168C2C02570cB814F"
+    },
+    {
+      "group": "setup",
+      "operation": "authorize DocumentLifecycleRegistry as audit emitter",
+      "kind": "tx",
+      "ms": 1.503,
+      "gasUsed": "47718",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "setup",
+      "operation": "authorize PatientDrivenPolicyRegistry as audit emitter",
+      "kind": "tx",
+      "ms": 1.592,
+      "gasUsed": "47706",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "setup",
+      "operation": "authorize DelegationRegistry as audit emitter",
+      "kind": "tx",
+      "ms": 1.4,
+      "gasUsed": "47718",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "setup",
+      "operation": "authorize AccessController as audit emitter",
+      "kind": "tx",
+      "ms": 1.41,
+      "gasUsed": "47718",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "setup",
+      "operation": "lock OrganizationRegistry bootstrap",
+      "kind": "tx",
+      "ms": 1.292,
+      "gasUsed": "27494",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "setup",
+      "operation": "lock PolicyRegistry bootstrap",
+      "kind": "tx",
+      "ms": 1.269,
+      "gasUsed": "27486",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "setup",
+      "operation": "lock TrustRegistry bootstrap",
+      "kind": "tx",
+      "ms": 1.251,
+      "gasUsed": "27457",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "setup",
+      "operation": "lock AuditRegistry bootstrap",
+      "kind": "tx",
+      "ms": 1.266,
+      "gasUsed": "44528",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "read nextProposalId for Doctor CREATE REFERTO",
+      "kind": "view",
+      "ms": 1.827,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "propose global policy: Doctor CREATE REFERTO",
+      "kind": "tx",
+      "ms": 2.305,
+      "gasUsed": "226995",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "vote org1 for global policy: Doctor CREATE REFERTO",
+      "kind": "tx",
+      "ms": 1.936,
+      "gasUsed": "135684",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "vote org2 for global policy: Doctor CREATE REFERTO",
+      "kind": "tx",
+      "ms": 1.745,
+      "gasUsed": "101484",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "finalize global policy: Doctor CREATE REFERTO",
+      "kind": "tx",
+      "ms": 2.707,
+      "gasUsed": "117004",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "read nextProposalId for Doctor READ REFERTO",
+      "kind": "view",
+      "ms": 0.777,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "propose global policy: Doctor READ REFERTO",
+      "kind": "tx",
+      "ms": 2.193,
+      "gasUsed": "226995",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "vote org1 for global policy: Doctor READ REFERTO",
+      "kind": "tx",
+      "ms": 1.775,
+      "gasUsed": "135684",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "vote org2 for global policy: Doctor READ REFERTO",
+      "kind": "tx",
+      "ms": 2.179,
+      "gasUsed": "101484",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "finalize global policy: Doctor READ REFERTO",
+      "kind": "tx",
+      "ms": 2.32,
+      "gasUsed": "117004",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "read nextProposalId for Doctor UPDATE REFERTO",
+      "kind": "view",
+      "ms": 0.586,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "propose global policy: Doctor UPDATE REFERTO",
+      "kind": "tx",
+      "ms": 2.165,
+      "gasUsed": "226995",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "vote org1 for global policy: Doctor UPDATE REFERTO",
+      "kind": "tx",
+      "ms": 1.745,
+      "gasUsed": "135684",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "vote org2 for global policy: Doctor UPDATE REFERTO",
+      "kind": "tx",
+      "ms": 1.75,
+      "gasUsed": "101484",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "finalize global policy: Doctor UPDATE REFERTO",
+      "kind": "tx",
+      "ms": 2.342,
+      "gasUsed": "117004",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "read nextProposalId for Doctor REVOKE REFERTO",
+      "kind": "view",
+      "ms": 0.507,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "propose global policy: Doctor REVOKE REFERTO",
+      "kind": "tx",
+      "ms": 1.925,
+      "gasUsed": "226995",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "vote org1 for global policy: Doctor REVOKE REFERTO",
+      "kind": "tx",
+      "ms": 1.997,
+      "gasUsed": "135684",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "vote org2 for global policy: Doctor REVOKE REFERTO",
+      "kind": "tx",
+      "ms": 1.845,
+      "gasUsed": "101484",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "finalize global policy: Doctor REVOKE REFERTO",
+      "kind": "tx",
+      "ms": 2.299,
+      "gasUsed": "117004",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "read nextProposalId for Doctor DELEGATE REFERTO",
+      "kind": "view",
+      "ms": 0.542,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "propose global policy: Doctor DELEGATE REFERTO",
+      "kind": "tx",
+      "ms": 1.998,
+      "gasUsed": "226995",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "vote org1 for global policy: Doctor DELEGATE REFERTO",
+      "kind": "tx",
+      "ms": 1.896,
+      "gasUsed": "135684",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "vote org2 for global policy: Doctor DELEGATE REFERTO",
+      "kind": "tx",
+      "ms": 1.791,
+      "gasUsed": "101484",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "finalize global policy: Doctor DELEGATE REFERTO",
+      "kind": "tx",
+      "ms": 2.438,
+      "gasUsed": "117004",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "read nextProposalId for maxDelegationDepth",
+      "kind": "view",
+      "ms": 0.552,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "propose maxDelegationDepth = 2",
+      "kind": "tx",
+      "ms": 2.431,
+      "gasUsed": "161284",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "vote org1 for maxDelegationDepth = 2",
+      "kind": "tx",
+      "ms": 2.205,
+      "gasUsed": "135684",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "vote org2 for maxDelegationDepth = 2",
+      "kind": "tx",
+      "ms": 2.073,
+      "gasUsed": "101484",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "governance",
+      "operation": "finalize maxDelegationDepth = 2",
+      "kind": "tx",
+      "ms": 3.074,
+      "gasUsed": "116530",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "credential",
+      "operation": "verify PresentedCredential for Doctor A",
+      "kind": "view",
+      "ms": 2.141,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "credential",
+      "operation": "verify PresentedCredential for Doctor D",
+      "kind": "view",
+      "ms": 1.548,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "policy",
+      "operation": "canPerformWithCredential Doctor CREATE REFERTO",
+      "kind": "view",
+      "ms": 1.722,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "document-lifecycle",
+      "operation": "create document v1",
+      "kind": "tx",
+      "ms": 5.096,
+      "gasUsed": "354792",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "document-lifecycle",
+      "operation": "patient cannot revoke document",
+      "kind": "expected-revert",
+      "ms": 8.121,
+      "success": true,
+      "notes": "revert atteso"
+    },
+    {
+      "group": "document-lifecycle",
+      "operation": "get current document after create",
+      "kind": "view",
+      "ms": 1.294,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "document-lifecycle",
+      "operation": "create document v2",
+      "kind": "tx",
+      "ms": 5.832,
+      "gasUsed": "340267",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "document-lifecycle",
+      "operation": "verify CID document v2",
+      "kind": "view",
+      "ms": 1.403,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "access-control",
+      "operation": "canAccess Doctor A READ by global policy + VC",
+      "kind": "view",
+      "ms": 3.059,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "access-control",
+      "operation": "requestAccess Doctor A READ by global policy + VC",
+      "kind": "tx",
+      "ms": 5.27,
+      "gasUsed": "160809",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "access-control",
+      "operation": "canAccess Auditor read REFERTO",
+      "kind": "view",
+      "ms": 2.025,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "patient-driven-policy",
+      "operation": "register patient-driven allowance for Doctor D READ",
+      "kind": "tx",
+      "ms": 3.165,
+      "gasUsed": "354536",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "patient-driven-policy",
+      "operation": "isAllowed Doctor D READ by patient-driven positive policy",
+      "kind": "view",
+      "ms": 0.781,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "access-control",
+      "operation": "canAccess Doctor D after patient-driven positive allowance",
+      "kind": "view",
+      "ms": 1.981,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "access-control",
+      "operation": "requestAccess Doctor D after patient-driven positive allowance",
+      "kind": "tx",
+      "ms": 4.802,
+      "gasUsed": "191228",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "delegation",
+      "operation": "read nextProposalId for direct delegation",
+      "kind": "view",
+      "ms": 0.523,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "delegation",
+      "operation": "propose direct delegation Doctor A -> Doctor B",
+      "kind": "tx",
+      "ms": 4.237,
+      "gasUsed": "446945",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "access-control",
+      "operation": "canAccess Doctor B while delegation is Pending",
+      "kind": "view",
+      "ms": 1.439,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "delegation",
+      "operation": "read nextDelegationId for direct delegation",
+      "kind": "view",
+      "ms": 0.56,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "delegation",
+      "operation": "approve direct delegation by patient",
+      "kind": "tx",
+      "ms": 2.975,
+      "gasUsed": "437350",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "access-control",
+      "operation": "canAccess Doctor B after direct delegation",
+      "kind": "view",
+      "ms": 1.669,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "access-control",
+      "operation": "requestAccess Doctor B through direct delegation",
+      "kind": "tx",
+      "ms": 5.207,
+      "gasUsed": "163023",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "delegation",
+      "operation": "read nextProposalId for derived delegation",
+      "kind": "view",
+      "ms": 8.559,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "delegation",
+      "operation": "propose derived delegation Doctor B -> Doctor C",
+      "kind": "tx",
+      "ms": 3.009,
+      "gasUsed": "408799",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "delegation",
+      "operation": "read nextDelegationId for derived delegation",
+      "kind": "view",
+      "ms": 0.463,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "delegation",
+      "operation": "approve derived delegation by patient",
+      "kind": "tx",
+      "ms": 3.344,
+      "gasUsed": "457250",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "access-control",
+      "operation": "canAccess Doctor C after derived delegation",
+      "kind": "view",
+      "ms": 2.036,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "delegation-security",
+      "operation": "reject third-level delegation above maxDepth",
+      "kind": "expected-revert",
+      "ms": 2.203,
+      "success": true,
+      "notes": "revert atteso"
+    },
+    {
+      "group": "delegation",
+      "operation": "revoke parent direct delegation by patient",
+      "kind": "tx",
+      "ms": 3.547,
+      "gasUsed": "109779",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "access-control",
+      "operation": "canAccess Doctor B after parent delegation revocation",
+      "kind": "view",
+      "ms": 1.931,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "access-control",
+      "operation": "canAccess Doctor C after parent delegation revocation",
+      "kind": "view",
+      "ms": 1.804,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "patient-driven-policy",
+      "operation": "register patient-driven access revocation for Doctor A READ",
+      "kind": "tx",
+      "ms": 3.657,
+      "gasUsed": "337416",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "document-lifecycle",
+      "operation": "isDocumentActive after patient-driven access revocation",
+      "kind": "view",
+      "ms": 0.69,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "access-control",
+      "operation": "canAccess Doctor A after patient-driven access revocation",
+      "kind": "view",
+      "ms": 1.787,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "credential",
+      "operation": "revoke Doctor A VC by issuer",
+      "kind": "tx",
+      "ms": 2.022,
+      "gasUsed": "81315",
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "credential",
+      "operation": "isCredentialValid Doctor A after VC revocation",
+      "kind": "view",
+      "ms": 0.539,
+      "success": true,
+      "notes": ""
+    },
+    {
+      "group": "access-control",
+      "operation": "canAccess Doctor A after VC revocation",
+      "kind": "view",
+      "ms": 1.47,
+      "success": true,
+      "notes": ""
+    }
+  ]
+}

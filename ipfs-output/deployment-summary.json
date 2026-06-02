@@ -1,0 +1,320 @@
+{
+  "accounts": {
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "organization1": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+    "organization2": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+    "organization3": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+    "doctorA": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+    "patient": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
+    "doctorB_delegated": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+    "doctorC_secondLevel": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
+    "auditor": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
+    "unauthorizedUser_possibleDoctorD": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720"
+  },
+  "dids": {
+    "organization1": "0x95be58db7def94a2772d2e0c0d89fed8ea8b7e6de5fb44e77ecd7cd2ac4329bd",
+    "organization2": "0x9ece7bb5f2df4ead8204aa733887b6d55327eda38606bd314917ecbb7e9a920e",
+    "organization3": "0x828b7e9bd606a365c3d13a8982d0f487ed57c131bab7eb6e8bea30c9e341174b",
+    "doctorA": "0x0c4531383ed3dfd5cbd9be7708967ad83b30de79c3361c9e89773d2c194ea1d0",
+    "patient": "0x8fb170580f2fae3e07cf82c835fbf256fbd53e841004f0c30f64bf0d37d89640",
+    "doctorB_delegated": "0x2223135dbfb2dd02605d4459d0a66dbbbf977b4d6038ce487d605fdb4d1fbab6",
+    "doctorC_secondLevel": "0xf72df6892b7b7f6fe88d0a036be6ae451705bddb54902cdffd3faee685131764",
+    "auditor": "0x1192a41a56004db02e34ed5682c3cd27bfcc76c7a3ffe6b0e38d33209e4acb68",
+    "unauthorizedUser_possibleDoctorD": "0x365f51f66031b78d87dbfc18a0d3d7a5c06a4a7eb05d6701c24df110a9bd243f"
+  },
+  "contracts": {
+    "AuditRegistry": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+    "OrganizationRegistry": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "IdentityRegistry": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+    "TrustRegistry": "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6",
+    "CredentialStatusRegistry": "0xA51c1fc2f0D1a1b8494Ed1FE312d7C3a78Ed91C0",
+    "PolicyRegistry": "0x9A676e781A523b5d0C0e43731313A708CB607508",
+    "PolicyGovernance": "0x68B1D87F95878fE05B998F19b66F4baba5De1aed",
+    "DocumentLifecycleRegistry": "0x322813Fd9A801c5507c9de605d63CEA4f2CE6c44",
+    "PatientDrivenPolicyRegistry": "0xa85233C63b9Ee964Add6F2cffe00Fd84eb32338f",
+    "DelegationRegistry": "0x4A679253410272dd5232B3Ff7cF5dbB88f295319",
+    "AccessController": "0x7a2088a1bFc9d81c55368AE168C2C02570cB814F"
+  },
+  "ipfs": {
+    "didDocuments": {
+      "org1": "bafkreicw6l2tq2nv4aughqkamavvymekcnqldw5akxbrksyqi6ilg3p564",
+      "org2": "bafkreidmj3szcncv45mmoi7zoilbbk4xkooqvhdbh655v57zkbshd7pkum",
+      "org3": "bafkreig5kfaejbppir55gqbtvlmrww42mxhjb7wllkqetd7pkzce3g6pjy",
+      "doctor": "bafkreidklflh6kk2hzigcenjxg7dgicuyqzzzjbqzyw3mor37quh3jicnu",
+      "patient": "bafkreihammogyupoyo5ytpcox2pqy7lwntrcfnp4vvixvgnspcinknnwfi",
+      "delegatedDoctor": "bafkreiatmrxt35szcwey2d2y4xmsxyg3rry6k2gofwwwdbqpqhyd3lfcdy",
+      "secondDelegatedDoctor": "bafkreigawoexmn4borajy4necbkmfhrsevsotlk7jzsh7tc6457d3xasle",
+      "auditor": "bafkreibwrrboui72t3te24vmucnepvm4hstp3cdwph4am7bcmhapjehwbm",
+      "unauthorizedUser": "bafkreiblplugp43vzet23h6fydccjigh5o7pr73g6r4542547mz733tnt4",
+      "doctorD": "bafkreicyswtksxhp7aaaomhrtad66d7xozasox33yldebxv5u6syyc7umy"
+    },
+    "credentials": {
+      "doctor": "bafkreib7j336i4crhtubuxgre6p7kci24box6cvctrybjco62j7a366wdm",
+      "auditor": "bafkreiduvdwuaqbkfbdnm2w2ryivaq6d4hbwalaps4npp4rarrj7nf3ibm",
+      "doctorD": "bafkreicrmsj54hldy2cjgglkakoj5u6vavfpunocfsajiuatu5fk5vq5zm"
+    },
+    "documents": {
+      "documentV1": "bafkreieriannyd2cpnm56bqh57wobe6qt25s6vyamaghdabpiwbppcweca",
+      "documentV2": "bafkreiahoc2i4j6wro7im24f3xbjdkc2wv4xbwfzi6vab6bbazdtq77m6u"
+    },
+    "globalPolicies": [
+      {
+        "label": "Doctor can CREATE REFERTO",
+        "cid": "bafkreiaab7624orp2n6keab7k2inds7qrkizfclqmfzovzw5suffp2uts4",
+        "cidHash": "0x686e1570ed0d77ec2004f44c57e16df6edaf25580f100aa422da3047d20cb90c",
+        "contentHash": "0x26e6b5437e78f94441fb270114809f595ee9ae27ea52b42e45d0245a14d2c79e"
+      },
+      {
+        "label": "Doctor can READ REFERTO",
+        "cid": "bafkreihan4cl3cmppiao2zs3dddqpi6ca3r3gkmwhhce3khuidahhcpenm",
+        "cidHash": "0x3121f0fdf1e62944ac3fd7b8997845471cf7df6287c362fab67eb6dd971c2961",
+        "contentHash": "0xde3f30632746c6d0092b1fd25d523e3f8ca2a882d0038a6b0bd7276b20edba8a"
+      },
+      {
+        "label": "Doctor can UPDATE REFERTO",
+        "cid": "bafkreibpbgexzxuirw4rzovhwrsmr6yo7akafubdx2qthy4dtd6mvduqj4",
+        "cidHash": "0x7260f169da3cc88e19aae8cb8983ba2c66065a39e0dae9cf41b0667504c78c80",
+        "contentHash": "0xed273d9bf4664bdd7a3175738009b7eb1fba6f9afd59e6f56eedd13189ccc02c"
+      },
+      {
+        "label": "Doctor can REVOKE REFERTO",
+        "cid": "bafkreihejja3q4okchnoju67sgutfgiwxk7vkwvsnb6nqqslnsas2qd5dy",
+        "cidHash": "0x5b1ac224babfa222cf502729b7ace3164666ce34dab6f131dc9c168b4c3db570",
+        "contentHash": "0x77fbbf90da88db80db0819fd36eb24223cb3e68f85b4f2b337ee707cabd8c561"
+      },
+      {
+        "label": "Doctor can DELEGATE REFERTO",
+        "cid": "bafkreicfm4rsjwqvmgcrtkpowe3glr66woalrowo3sbs5ybjw775jmbfxe",
+        "cidHash": "0xb2280567fff44a07f82e90d6624015767025660155c10b577f397bcad7a86faf",
+        "contentHash": "0x9ec91da34f28a872856d52c47161932be8760cdfa57da7fea1285e5635267c22"
+      }
+    ],
+    "governancePolicies": [
+      {
+        "label": "MaxDelegationDepth is 2",
+        "cid": "bafkreickz2uih3i2udimpjcmuae2bexoqgixrgtqid3aqtqrlx32tlkuni",
+        "cidHash": "0xb278723741d48f3bc4c2439ebd8fc9a18450365ceaa99392933eaffd1d2956b6",
+        "contentHash": "0xf29bb28a045ccffa20c48bcdab5b4640c312c87d7ff1a04bf417ef988be22041"
+      }
+    ],
+    "patientDrivenPolicies": [
+      {
+        "label": "Patient allowance: Doctor D can read DOCUMENT-001",
+        "cid": "bafkreicwargf5rmnx5e2gf5jrm3sagqvmbq76o4ylu7nv4odszrbzw6r6u",
+        "cidHash": "0xfb182d3247753d15a6de4ead2888e1b4cc2776a1a762d144123619f0d776c571",
+        "contentHash": "0x3f93786259004886f4df7375fb183e043e10930569431105983417237c6dbf74"
+      },
+      {
+        "label": "Patient restriction: Doctor A cannot read DOCUMENT-001 anymore",
+        "cid": "bafkreibioif7go6ftb46zu2baxenzxp77cdxwelrhmmtvfcfsjcjxviuxm",
+        "cidHash": "0x88b0280ca3b87715da3e2d2faffbb0576984b1487b8d6d39ca02ad3319317f0e",
+        "contentHash": "0xc3ca3fbf576c62e3b89a0a3fda4403e269f44d155e27831de203ad191f1b0aab"
+      }
+    ],
+    "auditBatches": [
+      {
+        "label": "audit-batch-demo-001",
+        "cid": "bafkreigpbtleyj7im5oow5vusliotdahz3wcf6trbxztblib5unxeamrhi",
+        "cidHash": "0xf0f655ff4a156565acf197b004b8dc925006556838268c51afb7da3d60a519d2",
+        "contentHash": "0x7b19c19ad5c814bd6f289444b3567283bde30987d3fae8d787c567636bb76cbb"
+      }
+    ],
+    "allOffchainAssets": [
+      {
+        "category": "did-document",
+        "label": "DID Document Organization 1",
+        "cid": "bafkreicw6l2tq2nv4aughqkamavvymekcnqldw5akxbrksyqi6ilg3p564",
+        "cidHash": "0xc04fe8b9a40c867916490019321afc6d5043e931b3f895b49bc978456a28fd41",
+        "contentHash": "0x38d5e56a65ff89c46ee5f6e7f68c3315048afd766c1336ef412cbf933af2cf4c"
+      },
+      {
+        "category": "did-document",
+        "label": "DID Document Organization 2",
+        "cid": "bafkreidmj3szcncv45mmoi7zoilbbk4xkooqvhdbh655v57zkbshd7pkum",
+        "cidHash": "0x2373b498e2255d13c2348975565f7f616f88845d421fa72dbc1c81b14a5e8b14",
+        "contentHash": "0x24f43a30f16dcd69018b53d1f733c3aac98ece4e65dfd1dfe2316b626fb37d2e"
+      },
+      {
+        "category": "did-document",
+        "label": "DID Document Organization 3",
+        "cid": "bafkreig5kfaejbppir55gqbtvlmrww42mxhjb7wllkqetd7pkzce3g6pjy",
+        "cidHash": "0x46aca3f37cb4b186503cf7f8f602cf21b06d0f614c74f190f868e4276124e958",
+        "contentHash": "0xca94dd5a15fa7f3de740feeca45c43f7bcc1b05c0de1ae4721e2d9dd533e32b9"
+      },
+      {
+        "category": "did-document",
+        "label": "DID Document Doctor A",
+        "cid": "bafkreidklflh6kk2hzigcenjxg7dgicuyqzzzjbqzyw3mor37quh3jicnu",
+        "cidHash": "0xb500acae2c1e3f1e1046ac734b1a5bb80ba9abe6f71ffc55f87bf9074106c724",
+        "contentHash": "0x34149cb4c558589a494cdaa1f071a3c7786fc94cc83daf8a108cbb8fff236009"
+      },
+      {
+        "category": "did-document",
+        "label": "DID Document Patient",
+        "cid": "bafkreihammogyupoyo5ytpcox2pqy7lwntrcfnp4vvixvgnspcinknnwfi",
+        "cidHash": "0xb835d842efdeed63345f4eab0098925e372c34e2cfa37db519817bb3ce928776",
+        "contentHash": "0xfb38f5c17a008b12956846808d33e8de21a8f3c5226f1ae3072ea4b61f36f73b"
+      },
+      {
+        "category": "did-document",
+        "label": "DID Document Doctor B",
+        "cid": "bafkreiatmrxt35szcwey2d2y4xmsxyg3rry6k2gofwwwdbqpqhyd3lfcdy",
+        "cidHash": "0xe14b55e8d67a770517ca9f766fc33e8b9591b30e7a1a92e0dd930f04b7778eda",
+        "contentHash": "0x38c11a4d0cb66f621e7cc446ad31ec3c4ad00e5a7158eb92a9d56656613ba5e5"
+      },
+      {
+        "category": "did-document",
+        "label": "DID Document Doctor C",
+        "cid": "bafkreigawoexmn4borajy4necbkmfhrsevsotlk7jzsh7tc6457d3xasle",
+        "cidHash": "0x94d25310eaffb2fdbf7e0ed849cd0bb640429f666072d518c921f7c92c45094f",
+        "contentHash": "0x4aef2ced87b6fc0d5c016bd28af72a65b5204935b9400c9e544108ad845c6ba6"
+      },
+      {
+        "category": "did-document",
+        "label": "DID Document Auditor",
+        "cid": "bafkreibwrrboui72t3te24vmucnepvm4hstp3cdwph4am7bcmhapjehwbm",
+        "cidHash": "0xf64e69976568d7781cd8b37e5339db9eb797c8e68b03840444de88328a547a82",
+        "contentHash": "0x6f05c55ae9b90eb88b62e8b08a292436bf36921649d047de467e1fe737256619"
+      },
+      {
+        "category": "did-document",
+        "label": "DID Document Unauthorized user / Doctor D",
+        "cid": "bafkreiblplugp43vzet23h6fydccjigh5o7pr73g6r4542547mz733tnt4",
+        "cidHash": "0xd82e7673ab338746e8d0cab8d7a435db828b566680cc8227cea9d4b1bd71b75e",
+        "contentHash": "0x6f8632248bcdf1ba315108fb401a2cfd9bf682712b33f675849d8b9e4a485509"
+      },
+      {
+        "category": "did-document",
+        "label": "DID Document Doctor D",
+        "cid": "bafkreicyswtksxhp7aaaomhrtad66d7xozasox33yldebxv5u6syyc7umy",
+        "cidHash": "0xdafddcfaca6423d17b100a6e12b49d649adab78a45532912fa23ded6684005fc",
+        "contentHash": "0x2b5ed51d063a12300fcf775dc2d7979896e38e5d6fa3419e9e4df8aa1bd797a1"
+      },
+      {
+        "category": "verifiable-credential",
+        "label": "VC vc:doctor:alice:medical-professional:v1",
+        "cid": "bafkreib7j336i4crhtubuxgre6p7kci24box6cvctrybjco62j7a366wdm",
+        "cidHash": "0xf326af48327c5bc677b25fe816b0ce70eac141f01133a0d94d22dc656dad9c31",
+        "contentHash": "0xae250594c5881e538a937152880905f16bfe68e34d93c8739c306eebfed5346b"
+      },
+      {
+        "category": "verifiable-credential",
+        "label": "VC vc:auditor:ana:auditor-professional:v1",
+        "cid": "bafkreiduvdwuaqbkfbdnm2w2ryivaq6d4hbwalaps4npp4rarrj7nf3ibm",
+        "cidHash": "0x7cbb534f5da250c666c23ca5fdb5fce8dac5cd12921d87514d2d0558690d6f16",
+        "contentHash": "0x78c7615c5700c123dd97ee1dc704cb55f3ef9a48dc88ba5fc966c744c70ec63b"
+      },
+      {
+        "category": "verifiable-credential",
+        "label": "VC vc:doctor:daniel:medical-professional:v1",
+        "cid": "bafkreicrmsj54hldy2cjgglkakoj5u6vavfpunocfsajiuatu5fk5vq5zm",
+        "cidHash": "0xf84527676404204fe7b808809ea79a7ef214e4741b64c13bca3389b02f3ca20a",
+        "contentHash": "0xbacf27ce39f3d5753e76450786569160ec291b3c077f24f66a28d2223ae572e8"
+      },
+      {
+        "category": "global-policy",
+        "label": "Global Policy Doctor can CREATE REFERTO",
+        "cid": "bafkreiaab7624orp2n6keab7k2inds7qrkizfclqmfzovzw5suffp2uts4",
+        "cidHash": "0x686e1570ed0d77ec2004f44c57e16df6edaf25580f100aa422da3047d20cb90c",
+        "contentHash": "0x26e6b5437e78f94441fb270114809f595ee9ae27ea52b42e45d0245a14d2c79e"
+      },
+      {
+        "category": "global-policy",
+        "label": "Global Policy Doctor can READ REFERTO",
+        "cid": "bafkreihan4cl3cmppiao2zs3dddqpi6ca3r3gkmwhhce3khuidahhcpenm",
+        "cidHash": "0x3121f0fdf1e62944ac3fd7b8997845471cf7df6287c362fab67eb6dd971c2961",
+        "contentHash": "0xde3f30632746c6d0092b1fd25d523e3f8ca2a882d0038a6b0bd7276b20edba8a"
+      },
+      {
+        "category": "global-policy",
+        "label": "Global Policy Doctor can UPDATE REFERTO",
+        "cid": "bafkreibpbgexzxuirw4rzovhwrsmr6yo7akafubdx2qthy4dtd6mvduqj4",
+        "cidHash": "0x7260f169da3cc88e19aae8cb8983ba2c66065a39e0dae9cf41b0667504c78c80",
+        "contentHash": "0xed273d9bf4664bdd7a3175738009b7eb1fba6f9afd59e6f56eedd13189ccc02c"
+      },
+      {
+        "category": "global-policy",
+        "label": "Global Policy Doctor can REVOKE REFERTO",
+        "cid": "bafkreihejja3q4okchnoju67sgutfgiwxk7vkwvsnb6nqqslnsas2qd5dy",
+        "cidHash": "0x5b1ac224babfa222cf502729b7ace3164666ce34dab6f131dc9c168b4c3db570",
+        "contentHash": "0x77fbbf90da88db80db0819fd36eb24223cb3e68f85b4f2b337ee707cabd8c561"
+      },
+      {
+        "category": "global-policy",
+        "label": "Global Policy Doctor can DELEGATE REFERTO",
+        "cid": "bafkreicfm4rsjwqvmgcrtkpowe3glr66woalrowo3sbs5ybjw775jmbfxe",
+        "cidHash": "0xb2280567fff44a07f82e90d6624015767025660155c10b577f397bcad7a86faf",
+        "contentHash": "0x9ec91da34f28a872856d52c47161932be8760cdfa57da7fea1285e5635267c22"
+      },
+      {
+        "category": "governance-policy",
+        "label": "Governance Policy MaxDelegationDepth is 2",
+        "cid": "bafkreickz2uih3i2udimpjcmuae2bexoqgixrgtqid3aqtqrlx32tlkuni",
+        "cidHash": "0xb278723741d48f3bc4c2439ebd8fc9a18450365ceaa99392933eaffd1d2956b6",
+        "contentHash": "0xf29bb28a045ccffa20c48bcdab5b4640c312c87d7ff1a04bf417ef988be22041"
+      },
+      {
+        "category": "health-document",
+        "label": "Documento sanitario DOCUMENT-001 versione 1",
+        "cid": "bafkreieriannyd2cpnm56bqh57wobe6qt25s6vyamaghdabpiwbppcweca",
+        "cidHash": "0xb4d71cbb0e97a2fc7da0191bad1fcfebbc359715d8a67fb303b8fd14202ab5b8",
+        "contentHash": "0x740d20fe0ea1b4d2211e76280253377a7b4e20fded503247147a600f1067b249"
+      },
+      {
+        "category": "health-document",
+        "label": "Documento sanitario DOCUMENT-001 versione 2",
+        "cid": "bafkreiahoc2i4j6wro7im24f3xbjdkc2wv4xbwfzi6vab6bbazdtq77m6u",
+        "cidHash": "0x1c802fa533f43f9f5ab5f5b139d20c7cee1eb466d7b4ccd010168935a9d7adb6",
+        "contentHash": "0x332dae9c066513f27b56e51e7a1a9533cb2e1baf4e0929419b7a131935c19e1c"
+      },
+      {
+        "category": "selective-disclosure-presentation",
+        "label": "Selective disclosure presentation Doctor A READ DOCUMENT-001",
+        "cid": "bafkreihgfna2qg4yeqqalxgp35j7nfnj5vqnammckhjok5xzsbkslga5yi",
+        "cidHash": "0xa9a321203c94e554adb89b0aea5be4e6a0ca177411a2fca72a5e0d6248ee03a7",
+        "contentHash": "0x89ad62812b9c6db49099e94bda834eb3802122e515d99b5cd48b2374d8049b33"
+      },
+      {
+        "category": "patient-driven-policy",
+        "label": "Patient-driven allowance Doctor D READ DOCUMENT-001",
+        "cid": "bafkreicwargf5rmnx5e2gf5jrm3sagqvmbq76o4ylu7nv4odszrbzw6r6u",
+        "cidHash": "0xfb182d3247753d15a6de4ead2888e1b4cc2776a1a762d144123619f0d776c571",
+        "contentHash": "0x3f93786259004886f4df7375fb183e043e10930569431105983417237c6dbf74"
+      },
+      {
+        "category": "patient-driven-policy",
+        "label": "Patient-driven Policy restriction Doctor A READ DOCUMENT-001",
+        "cid": "bafkreibioif7go6ftb46zu2baxenzxp77cdxwelrhmmtvfcfsjcjxviuxm",
+        "cidHash": "0x88b0280ca3b87715da3e2d2faffbb0576984b1487b8d6d39ca02ad3319317f0e",
+        "contentHash": "0xc3ca3fbf576c62e3b89a0a3fda4403e269f44d155e27831de203ad191f1b0aab"
+      },
+      {
+        "category": "audit-batch",
+        "label": "Audit batch demo 001",
+        "cid": "bafkreigpbtleyj7im5oow5vusliotdahz3wcf6trbxztblib5unxeamrhi",
+        "cidHash": "0xf0f655ff4a156565acf197b004b8dc925006556838268c51afb7da3d60a519d2",
+        "contentHash": "0x7b19c19ad5c814bd6f289444b3567283bde30987d3fae8d787c567636bb76cbb"
+      }
+    ],
+    "recoveredFiles": {
+      "documentV1": "C:\\Users\\giorg\\Documenti\\uni\\Block\\Gruppo10_BlockChain_al3105\\ipfs-output\\documento_v1_recuperato.txt",
+      "documentV2": "C:\\Users\\giorg\\Documenti\\uni\\Block\\Gruppo10_BlockChain_al3105\\ipfs-output\\documento_v2_recuperato.txt"
+    }
+  },
+  "demoResults": {
+    "maxDelegationDepth": "2",
+    "didDoctorActive": true,
+    "vcDoctorValidAfterRevocation": false,
+    "documentHashVerified": true,
+    "doctorAReadByPolicyBeforeVCRevocation": true,
+    "auditorReadAfterRestriction": false,
+    "doctorBReadBeforeDelegation": false,
+    "doctorBReadAfterDelegation": true,
+    "doctorCReadBeforeDerivedDelegation": false,
+    "doctorCReadAfterDerivedDelegation": true,
+    "doctorBReadAfterParentRevocation": false,
+    "doctorCReadAfterParentRevocation": false,
+    "doctorAReadAfterVCRevocation": false,
+    "doctorAReadAfterPatientAccessRevocation": false
+  }
+}

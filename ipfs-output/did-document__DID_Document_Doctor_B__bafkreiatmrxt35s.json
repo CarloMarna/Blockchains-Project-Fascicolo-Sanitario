@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:health:doctor:charlie",
+  "controller": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+  "verificationMethod": [
+    {
+      "id": "did:health:doctor:charlie#keys-1",
+      "type": "EcdsaSecp256k1RecoveryMethod2020",
+      "controller": "did:health:doctor:charlie",
+      "blockchainAccountId": "eip155:31337:0x976EA74026E726554dB657fA54763abd0C3a0aa9"
+    }
+  ],
+  "authentication": [
+    "did:health:doctor:charlie#keys-1"
+  ],
+  "assertionMethod": [
+    "did:health:doctor:charlie#keys-1"
+  ],
+  "service": [
+    {
+      "id": "did:health:doctor:charlie#health-service",
+      "type": "HealthDocumentService",
+      "serviceEndpoint": "ipfs://metadata/did:health:doctor:charlie"
+    }
+  ]
+}

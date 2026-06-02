@@ -1,0 +1,12 @@
+{
+  "type": "GovernancePolicy",
+  "policyName": "MaxDelegationDepth",
+  "label": "MaxDelegationDepth is 2",
+  "newDepth": "2",
+  "proposedBy": {
+    "organizationDID": "did:health:org:1",
+    "controller": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8"
+  },
+  "storageModel": "full governance policy off-chain on IPFS; CID hash anchored on-chain through governance proposal",
+  "createdAt": "2026-05-31T23:59:06.718Z"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "GlobalAccessPolicy",
+  "label": "Doctor can CREATE REFERTO",
+  "role": "2",
+  "documentType": "0xdba25625ee04bf2a20c6a511a24424224e99dc254e3df0021c4bb49fc6aec64f",
+  "action": "0x8c40c1e8946416673984fcabe51d93ca7f795d4572deebda294064e6ec0dcee6",
+  "allowed": true,
+  "proposedBy": {
+    "organizationDID": "did:health:org:1",
+    "controller": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8"
+  },
+  "storageModel": "full policy off-chain on IPFS; CID hash anchored on-chain through governance proposal",
+  "createdAt": "2026-05-31T23:58:10.302Z"
+}

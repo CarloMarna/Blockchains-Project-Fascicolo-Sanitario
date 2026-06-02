@@ -1,0 +1,51 @@
+{
+  "type": "SelectiveDisclosurePresentationEvidence",
+  "note": "Evidenza off-chain della verifica SD-JWT prima della chiamata ad AccessController.",
+  "presentationRequirement": {
+    "aud": "did:health:verifier:access-controller",
+    "nonce": "r78I2hHc5iMjicXYvgOczA",
+    "requestedAt": 1780270757,
+    "holderDid": "did:health:doctor:alice",
+    "documentId": "0xe36a352e80a724fab7524151faf8c2615eee86aa0eb5769ef389a89c621d6367",
+    "action": "READ",
+    "actionHash": "0x917ec7ea41e5f357223d15148fe9b320af36ca576055af433ea3445b39221799",
+    "purpose": "CONTINUITA_ASSISTENZIALE",
+    "purposeHash": "0xca7d005eb4fd1d007d77076b18aa9a3c47aa95f47ffde6241a26583b293b450c",
+    "requiredClaimKeys": [
+      "role",
+      "department"
+    ],
+    "hiddenClaimKeys": [
+      "organization"
+    ]
+  },
+  "presentationEnvelope": {
+    "format": "sd-jwt-vp-demo",
+    "aud": "did:health:verifier:access-controller",
+    "nonce": "r78I2hHc5iMjicXYvgOczA",
+    "requestedAt": 1780270757,
+    "holderDid": "did:health:doctor:alice",
+    "documentId": "0xe36a352e80a724fab7524151faf8c2615eee86aa0eb5769ef389a89c621d6367",
+    "action": "READ",
+    "actionHash": "0x917ec7ea41e5f357223d15148fe9b320af36ca576055af433ea3445b39221799",
+    "purpose": "CONTINUITA_ASSISTENZIALE",
+    "purposeHash": "0xca7d005eb4fd1d007d77076b18aa9a3c47aa95f47ffde6241a26583b293b450c",
+    "sdJwtPresentationHash": "0x681a29dc5dcc761ce37a1cf008e2ee5bdaf7a5f97101d73cfcb274b105fa035c"
+  },
+  "holderController": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+  "recoveredHolderController": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+  "holderSignature": "0xe39cb3d4d1775ece2494738343eca07e8952a53581b7ff2e91957b2bcb36859f7a4dd0641ff7f26f101459559a2ba61a611fe52a57680a2ce5622c49092879711b",
+  "verifierResult": "ACCEPTED",
+  "disclosedClaims": {
+    "role": "Doctor",
+    "department": "Cardiology"
+  },
+  "hiddenClaims": [
+    "organization"
+  ],
+  "onChainChecks": {
+    "issuerTrustedOnChain": true,
+    "credentialValidOnChain": true
+  },
+  "nextStep": "AccessController.canAccess(DID_DOCTOR, doctorPresentedCredential, documentId, ACTION_READ, PURPOSE_CARE)"
+}

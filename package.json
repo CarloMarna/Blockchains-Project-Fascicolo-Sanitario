@@ -1,0 +1,33 @@
+{
+  "name": "gruppo10_blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.0.12",
+    "@nomicfoundation/hardhat-ignition": "^3.1.5",
+    "@nomicfoundation/hardhat-toolbox": "^7.0.0",
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.5",
+    "@types/node": "^22.19.19",
+    "ethers": "^6.16.0",
+    "forge-std": "github:foundry-rs/forge-std#v1.9.4",
+    "hardhat": "^3.4.5",
+    "typescript": "~5.8.0",
+    "viem": "^2.49.3"
+  },
+  "dependencies": {
+    "@helia/unixfs": "^7.2.1",
+    "@sd-jwt/core": "^0.19.0",
+    "blockstore-core": "^7.0.1",
+    "datastore-core": "^12.0.1",
+    "helia": "^6.1.4",
+    "multiformats": "^14.0.0"
+  }
+}

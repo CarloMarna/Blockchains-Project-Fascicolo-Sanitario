@@ -1,0 +1,13 @@
+{
+  "type": "PatientDrivenAllowance",
+  "label": "Patient allowance: Doctor D can read DOCUMENT-001",
+  "meaning": "Il paziente autorizza esplicitamente Doctor D a leggere questo documento.",
+  "documentId": "0xe36a352e80a724fab7524151faf8c2615eee86aa0eb5769ef389a89c621d6367",
+  "patientDID": "0x8fb170580f2fae3e07cf82c835fbf256fbd53e841004f0c30f64bf0d37d89640",
+  "allowedUserDID": "0x7e1bec84d8f2890493175db35d6dde9efdcbf22dd9ceff9a4eb718b21da64068",
+  "allowedAction": "0x917ec7ea41e5f357223d15148fe9b320af36ca576055af433ea3445b39221799",
+  "purpose": "0xca7d005eb4fd1d007d77076b18aa9a3c47aa95f47ffde6241a26583b293b450c",
+  "validFrom": "1780271792",
+  "validUntil": "1780876592",
+  "createdAt": "2026-05-31T23:58:10.595Z"
+}

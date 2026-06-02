@@ -1,0 +1,25 @@
+{
+  "type": "PatientDrivenRestriction",
+  "label": "Patient restriction: Doctor A cannot read DOCUMENT-001 anymore",
+  "meaning": "Il paziente revoca il consenso/accesso di Doctor A al referto. Il documento resta Certified.",
+  "documentId": "0xe36a352e80a724fab7524151faf8c2615eee86aa0eb5769ef389a89c621d6367",
+  "documentType": "REFERTO",
+  "patient": {
+    "did": "did:health:patient:bob",
+    "didHash": "0x8fb170580f2fae3e07cf82c835fbf256fbd53e841004f0c30f64bf0d37d89640",
+    "controller": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc"
+  },
+  "restrictedUser": {
+    "did": "did:health:doctor:alice",
+    "didHash": "0x0c4531383ed3dfd5cbd9be7708967ad83b30de79c3361c9e89773d2c194ea1d0",
+    "controller": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65"
+  },
+  "action": "READ",
+  "actionHash": "0x917ec7ea41e5f357223d15148fe9b320af36ca576055af433ea3445b39221799",
+  "purpose": "CONTINUITA_ASSISTENZIALE",
+  "purposeHash": "0xca7d005eb4fd1d007d77076b18aa9a3c47aa95f47ffde6241a26583b293b450c",
+  "validFrom": "1780272027",
+  "validUntil": "1780876827",
+  "storageModel": "full patient-driven restriction off-chain on IPFS; CID hash anchored on-chain in PatientDrivenPolicyRegistry",
+  "createdAt": "2026-05-31T23:59:06.892Z"
+}

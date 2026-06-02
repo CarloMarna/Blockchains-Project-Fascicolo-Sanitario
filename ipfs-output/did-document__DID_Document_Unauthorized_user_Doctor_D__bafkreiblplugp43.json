@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:health:unknown:eve",
+  "controller": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+  "verificationMethod": [
+    {
+      "id": "did:health:unknown:eve#keys-1",
+      "type": "EcdsaSecp256k1RecoveryMethod2020",
+      "controller": "did:health:unknown:eve",
+      "blockchainAccountId": "eip155:31337:0xa0Ee7A142d267C1f36714E4a8F75612F20a79720"
+    }
+  ],
+  "authentication": [
+    "did:health:unknown:eve#keys-1"
+  ],
+  "assertionMethod": [
+    "did:health:unknown:eve#keys-1"
+  ],
+  "service": [
+    {
+      "id": "did:health:unknown:eve#health-service",
+      "type": "HealthDocumentService",
+      "serviceEndpoint": "ipfs://metadata/did:health:unknown:eve"
+    }
+  ]
+}

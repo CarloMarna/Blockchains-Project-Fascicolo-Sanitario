@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "id": "did:health:doctor:daniel",
+  "controller": "0xBcd4042DE499D14e55001CcbB24a551F3b954096",
+  "verificationMethod": [
+    {
+      "id": "did:health:doctor:daniel#keys-1",
+      "type": "EcdsaSecp256k1RecoveryMethod2020",
+      "controller": "did:health:doctor:daniel",
+      "blockchainAccountId": "eip155:31337:0xBcd4042DE499D14e55001CcbB24a551F3b954096"
+    }
+  ],
+  "authentication": [
+    "did:health:doctor:daniel#keys-1"
+  ],
+  "assertionMethod": [
+    "did:health:doctor:daniel#keys-1"
+  ],
+  "service": [
+    {
+      "id": "did:health:doctor:daniel#health-service",
+      "type": "HealthDocumentService",
+      "serviceEndpoint": "ipfs://metadata/did:health:doctor:daniel"
+    }
+  ]
+}
